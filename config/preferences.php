@@ -591,12 +591,12 @@ return [
 		//'lbl' => '', // Death's Guard - Sash (6)
 		//'lgl' => '', // Death's Hand - Leather Gloves (6)
 		//'wsd' => '', // Death's Touch - War Sword (6)
-		'hgl' => 6, // Sigon's Gage - Gauntlets (6)
-		'tow' => 6, // Sigon's Guard - Tower Shield (6)
-		'hbt' => 6, // Sigon's Sabot - Greaves (6)
-		'gth' => 6, // Sigon's Shelter - Gothic Plate (6)
-		'ghm' => 6, // Sigon's Visor - Great Helm (6)
-		'hbl' => 6, // Sigon's Wrap - Plated Belt (6)
+		//'hgl' => 6, // Sigon's Gage - Gauntlets (6)
+		//'tow' => 6, // Sigon's Guard - Tower Shield (6)
+		//'hbt' => 6, // Sigon's Sabot - Greaves (6)
+		//'gth' => 6, // Sigon's Shelter - Gothic Plate (6)
+		//'ghm' => 6, // Sigon's Visor - Great Helm (6)
+		//'hbl' => 6, // Sigon's Wrap - Plated Belt (6)
 		//'brs' => '', // Isenhart's Case - Breast Plate (8)
 		//'fhl' => '', // Isenhart's Horns - Full Helm (8)
 		//'bsd' => '', // Isenhart's Lightbrand - Broad Sword (8)
@@ -867,6 +867,7 @@ return [
 		'uui' => [ // Dusk Shroud - Tors (49)
 			3 => 3,
 			4 => 4,
+			2 => 5,
 			0 => 4,
 		],
 		//'bac' => [], // Fury Visor - Phlm (49)
@@ -885,6 +886,7 @@ return [
 		'utu' => [ // Wire Fleece - Tors (53)
 			3 => 3,
 			4 => 4,
+			2 => 5,
 			0 => 4,
 		],
 		//'umb' => [], // Boneweave Boots - Boot (54)
@@ -919,6 +921,7 @@ return [
 		'utp' => [ // Archon Plate - Tors (63)
 			3 => 3,
 			4 => 4,
+			2 => 5,
 			0 => 4,
 		],
 		//'uh9' => [], // Bone Visage - Helm (63)
