@@ -15,10 +15,10 @@ How it does these things:
 - consults remote hosted game files
 - builds a preferences file that lists every item in the game
 - you edit the preferences file to your tastes by adding tier labels (1-6)
-- builds loot filter rules based on your config
+- builds loot filter rules based on your preferences
 - opens your game loot filter file and adds them in the right place
 
-If you add the line ``// !!!PD2LFB!!!`` to your loot filter, and set the path to that filter in ``custom.php``, then running this app will automatically patch your live file.  This makes it much easier to edit the config as you play and rerun the app often to auto-patch your game.
+This makes it easy to make changes to your preferences as you play.  Just run the command and it patches your loot filter for you.
 
 ## Usage
 
@@ -45,6 +45,12 @@ Run the prep command to make sure your preferences file is up to date (or create
 
 ```bash
 $ php run prep
+```
+
+Rename the generated preferences file:
+
+```bash
+$ mv config/preferences_generated.php config/preferences.php
 ```
 
 Make desired changes to the preferences files, then run the app:
