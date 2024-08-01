@@ -1,0 +1,9 @@
+!*.dll
+!*/*.dll
+.DS_Store
+reset.sh
+vendor
+composer.lock
+.~lock.*
+config/config.php
+config/*generated.php
