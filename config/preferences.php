@@ -33,6 +33,16 @@ return [
 		'2hsw' => '(2H SWORD)',
 	],
 
+	// Define any FILTLVL codes to apply for each tier.
+	'filters' => [
+		'1' => null,
+		'2' => null,
+		'3' => null,
+		'4' => null,
+		'5' => null,
+		'6' => 'FILTLVL<3',
+	],
+
 	// Define your tiers and their colors.
 	'colors' => [
 		'1' => '%ORANGE%',
@@ -58,17 +68,17 @@ return [
 
 	// Define conditions to match catch-all base items.
 	'catchall' => [
-		'(CIRC OR DRU OR BAR) (SOCK=2 OR SOCK=0)' => 6,
+		'(CIRC OR DRU OR BAR) (SOCK=2)' => 6,
 		'(CIRC OR DRU OR BAR) (SOCK=3)' => 5,
 		'ELT ETH CHEST' => 3,
-		'EXC ETH CHEST' => 5,
-		'NORM ETH CHEST' => 6,
+		'FILTLVL<3 EXC ETH CHEST' => 5,
+		'FILTLVL<2 NORM ETH CHEST' => 6,
 		'ELT ZON (TABSK0>2 OR TABSK2>2)' => 4,
-		'EXC ZON (TABSK0>1 OR TABSK2>1)' => 5,
-		'NORM ZON (TABSK0>0 OR TABSK2>0)' => 6,
+		'FILTLVL<3 EXC ZON (TABSK0>1 OR TABSK2>1)' => 5,
+		'FILTLVL<2 NORM ZON (TABSK0>0 OR TABSK2>0)' => 6,
 		'ELT DIN RES>29' => 4,
-		'EXC DIN RES>19' => 5,
-		'NORM DIN RES>9' => 6,
+		'FILTLVL<3 EXC DIN RES>19' => 5,
+		'FILTLVL<2 NORM DIN RES>9' => 6,
 		#'ELT SIN' => 4,
 		#'EXC SIN' => 5,
 		#'NORM SIN' => 6,
@@ -139,7 +149,7 @@ return [
 		//'hbw' => '', // Witherstring - Hunter�s Bow (13)
 		//'hlm' => '', // Coif Of Glory - Helm (14)
 		//'rng' => '', // Darkglow - Ring Mail (14)
-		'bax' => 6, // Goreshovel - Broad Axe (14)
+		//'bax' => '', // Goreshovel - Broad Axe (14)
 		//'ywn' => '', // Maelstromwrath - Yew Wand (14)
 		//'vou' => '', // Steelgoad - Voulge (14)
 		//'hla' => '', // The Centurion - Hard Leather (14)
@@ -469,7 +479,7 @@ return [
 		//'7ls' => '', // Frostwind - Cryptic Sword (70)
 		//'7ts' => '', // Gargoyle's Bite - Winged Harpoon (70)
 		//'7ta' => '', // Gimmershred - Flying Axe (70)
-		//'7ga' => '', // Messerschmidt's Reaver - Champion Axe (70)
+		'7ga' => 3, // Messerschmidt's Reaver - Champion Axe (70)
 		//'utg' => '', // Occultist - Crusader Guantlets (70)
 		//'upk' => '', // Spike Thorn - Blade Barrier (70)
 		'uhg' => 3, // Steelrend - Ogre Gauntlets (70)
@@ -963,7 +973,7 @@ return [
 		'crs' => [ // Crystal Sword - Swor (0)
 			5 => 5,
 			4 => 5,
-			0 => 5,
+			0 => 6,
 		],
 		//'dgr' => [], // Dagger - Knif (0)
 		//'d33' => [], // Decoy Dagger - Knif (0)
@@ -974,7 +984,7 @@ return [
 		'fla' => [ // Flail - Mace (0)
 			5 => 5,
 			4 => 5,
-			0 => 5,
+			0 => 6,
 		],
 		//'flb' => [], // Flamberge - Swor (0)
 		//'opl' => [], // Fulminating Potion - Tpot (0)
@@ -1239,7 +1249,7 @@ return [
 			5 => 2,
 			4 => 6,
 			3 => 5,
-			0 => 6,
+			0 => 2,
 		],
 		//'6cs' => [], // Elder Staff - Staf (55)
 		//'7br' => [], // Mancatcher - Spea (55)
@@ -1267,7 +1277,7 @@ return [
 			'ETH SOCK=6' => 3,
 			'ETH SOCK=5' => 3,
 			'ETH SOCK=4' => 5,
-			0 => 6,
+			'ETH SOCK=0' => 5,
 		],
 		//'ame' => [], // Matriarchal Pike - Aspe (60)
 		//'7tw' => [], // Runic Talons - H2h2 (60)
@@ -1283,7 +1293,7 @@ return [
 			'ETH SOCK=6' => 3,
 			'ETH SOCK=5' => 3,
 			'ETH SOCK=4' => 5,
-			0 => 6,
+			'ETH SOCK=0' => 5,
 		],
 		//'6rx' => [], // Demon Crossbow - Xbow (63)
 		'7h7' => [ // Great Poleaxe - Pole (63)
@@ -1300,7 +1310,7 @@ return [
 			5 => 2,
 			4 => 6,
 			3 => 5,
-			0 => 6,
+			0 => 2,
 		],
 		//'7qr' => [], // Scissors Suwayyah - H2h2 (64)
 		//'7gw' => [], // Unearthed Wand - Wand (64)

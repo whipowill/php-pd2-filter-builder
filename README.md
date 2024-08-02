@@ -35,9 +35,13 @@ Rename the config file so you can input your loot filter path:
 $ cp config/config_example.php config/config.php
 ```
 
-Open your game ``default.filter`` and add this line to the bottom:
+Open ``default.filter`` and add this line to fence where you want the code to go:
 
 ```
+// !!!PD2LFB!!!
+
+<GENERATED CODE WILL GO HERE>
+
 // !!!PD2LFB!!!
 ```
 
@@ -46,6 +50,8 @@ Run the prep command to make sure your preferences file is up to date (or create
 ```bash
 $ php run prep
 ```
+
+This command scans the game files and makes sure your preferences file has everything it needs to have.  It will retain the old values you had in your live preferences file, transfering those to the new.
 
 Rename the generated preferences file:
 
@@ -63,7 +69,7 @@ Your ``default.filter`` file should be patched with the generated loot filter ru
 
 ## Settings
 
-The tier config entries require some subjective decision making.  My operating rules for best base items are:
+The tier config entries require some subjective decision making.  My general rules for best base items are:
 
 - Armor
 	- Elite:  Wire Fleece (``utu``), Archon Plate (``utp``), Dusk Shroud (``uui``)
@@ -82,7 +88,7 @@ The tier config entries require some subjective decision making.  My operating r
 - Caster
 	- Crystal Sword (``crs``), Flail (``fla``)
 
-These items are generally "the best" bc of their damage output and strength requirements.  As usual, elite ethereal items are always good for mercenaries.
+These items are generally "the best" bc of their damage output, speed, and strength requirements.  As usual, elite ethereal chests are always good for mercenaries.
 
 You can change the config I've provided to match your own tastes.
 

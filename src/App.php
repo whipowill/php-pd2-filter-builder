@@ -28,6 +28,9 @@ class App
 			$notes['colors'] = 'Define your tiers and their colors.';
 			$sections['colors'] = ex($preferences, 'colors', []);
 
+			$notes['filters'] = 'Define any FILTLVL codes to apply for each tier.';
+			$sections['filters'] = ex($preferences, 'filters', []);
+
 			$notes['rename'] = 'Rename items that are labeled oddly in the game files.';
 			$sections['rename'] = ex($preferences, 'rename', []);
 
@@ -131,14 +134,31 @@ class App
 					$contents = file_get_contents($path);
 
 					// split
-					$parts = explode('!!!PD2LFB!!!', $contents);
+					$parts = explode('// !!!PD2LFB!!!', $contents);
 
-					if (count($parts) == 2)
+					if (count($parts) >= 2)
 					{
-						// add to end of file
-						$contents = ex($parts, 0).'!!!PD2LFB!!!'."\n\n".$string;
+						// part 1 is always presumed to be what is being replaced
+						$parts[1] = null;
 
-						file_put_contents($path, $contents);
+						// add to end of file
+						$perfect = '';
+						foreach ($parts as $n => $c)
+						{
+							if ($c)
+							{
+								$perfect .= $c;
+
+								if ($n == 0)
+								{
+									$perfect .= '// !!!PD2LFB!!!'."\n\n";
+									$perfect .= $string."\n\n";
+									$perfect .= '// !!!PD2LFB!!!';
+								}
+							}
+						}
+
+						file_put_contents($path, $perfect);
 
 						// report
 						terminal('File "'.$path.'" saved.');
@@ -214,12 +234,25 @@ class App
 						if ($cat == 'NMAG' and !$conditions)
 							$conditions = 'SOCK=0';
 
-						$lines[] = 'ItemDisplay[!INF '.$cat.' '.$code.($conditions ? ' '.$conditions : '').']: '.ex($preferences, 'colors.'.$v).'T'.$v.' %WHITE%%NAME%{%NAME%}%MAP%%TIER-'.$v.'%';
+						// trim
+						$conditions = trim($conditions);
+
+						// capture filter rule
+						$filter = ex($preferences, 'filters.'.$v);
+
+						// print
+						$lines[] = 'ItemDisplay[!INF '.$cat.' '.$code.($conditions ? ' '.$conditions : '').']: '.ex($preferences, 'colors.'.$v).'T'.$v.' %WHITE%%NAME%{%NAME%}';
+						$lines[] = 'ItemDisplay[!INF '.$cat.' '.$code.($conditions ? ' '.$conditions : '').($filter ? ' '.$filter : '').']: %NAME%{%NAME%}%MAP%%TIER-'.$v.'%';
 					}
 				}
 				else
 				{
-					$lines[] = 'ItemDisplay[!INF '.$cat.' '.$code.']: '.ex($preferences, 'colors.'.$value).'T'.$value.' %WHITE%%NAME%{%NAME%}%MAP%%TIER-'.$value.'%';
+					// capture filter rule
+					$filter = ex($preferences, 'filters.'.$value);
+
+					// print
+					$lines[] = 'ItemDisplay[!INF '.$cat.' '.$code.']: '.ex($preferences, 'colors.'.$value).'T'.$value.' %WHITE%%NAME%{%NAME%}';
+					$lines[] = 'ItemDisplay[!INF '.$cat.' '.$code.($filter ? ' '.$filter : '').']: %NAME%{%NAME%}%MAP%%TIER-'.$value.'%';
 				}
 			}
 			$lines[] = '';

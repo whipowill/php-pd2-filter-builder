@@ -119,253 +119,494 @@ ItemDisplay[NMAG !RW !INF ((HELM OR CIRC OR BAR OR DRU)) SOCK=2]: %NAME%{%NAME%%
 // https://github.com/whipowill/php-pd2-filter-builder
 
 // Uniques
-ItemDisplay[!INF UNI cm1]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI dgr]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI lbt]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI rin MFIND>19]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI rin PRES>9]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI rin AR>99]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI rin CHSK236>0]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI rin STAT27>19]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI rin LIFE>19]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI rin ALLSK>0]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}%MAP%%TIER-2%
-ItemDisplay[!INF UNI vgl]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF UNI amu IAS>19 FRW>19]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI amu ALLSK>0 IAS>19]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI amu ALLSK>0 RES>19]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}%MAP%%TIER-2%
-ItemDisplay[!INF UNI amu AR>99]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI amu REPLIFE>9]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI amu CLSK1>1]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI bax]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF UNI mgl]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI lbw]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF UNI skp]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF UNI tbt]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI tgl]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI tbl]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI ba6]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI xap]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF UNI hgl]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI xea]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI zlb]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI xml]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI 8ls ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI 8ls]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI xkp]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI zvb]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI xvb]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI 8lb]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF UNI 9wn]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI 9fc]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI xlm ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI xlm]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI 9bw]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI xmb]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI 9st ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI 9st]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI xhn ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI xhn]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI 9bs ETH]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI 9bs]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF UNI xrs ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI xrs]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI xsh]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI xh9 ETH]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI xh9]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI baa]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI 9tw]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI pa9]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI nea]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI dra]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI am7]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI xpl ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI xpl]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI ztb]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI oba]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI ama ETH]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI ama]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI xtb]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI xhm]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI xlt ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI xlt]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI xhb]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI zhb]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI xrn ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI xrn]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI jew]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI uvc]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI xtp]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF UNI 7cr]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI 7ws]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI 7sc SOCK=2]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI 7sc]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI 7dg]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI cm3]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI uap]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI umc]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI 7o7 ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI 7o7]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI nef TABSK17>2]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}%MAP%%TIER-2%
-ItemDisplay[!INF UNI nef]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI 7fl IAS>29]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI 7fl]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI uvb ETH]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI uvb]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI 7gw]: %ORANGE%T1 %WHITE%%NAME%{%NAME%}%MAP%%TIER-1%
-ItemDisplay[!INF UNI uhm]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}%MAP%%TIER-2%
-ItemDisplay[!INF UNI 7kr]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI 7b8 ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI 7b8]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI 7m7 ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI 7m7]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI amf TABSK2>2]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI amf]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI 7wa ETH]: %ORANGE%T1 %WHITE%%NAME%{%NAME%}%MAP%%TIER-1%
-ItemDisplay[!INF UNI 7wa]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}%MAP%%TIER-2%
-ItemDisplay[!INF UNI uhg]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI uhb]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI 72a ETH SOCK=5]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI 72a]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI obf]: %ORANGE%T1 %WHITE%%NAME%{%NAME%}%MAP%%TIER-1%
-ItemDisplay[!INF UNI uit]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI 6lw]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI uar]: %ORANGE%T1 %WHITE%%NAME%{%NAME%}%MAP%%TIER-1%
-ItemDisplay[!INF UNI ush SOCK=3]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI ush]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI cm2]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI uui (SK49>0 OR SK53>0 OR SK52>0 OR SK59>0)]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}%MAP%%TIER-2%
-ItemDisplay[!INF UNI uui]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI 7s8 ETH]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}%MAP%%TIER-2%
-ItemDisplay[!INF UNI 7s8]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI 7bk ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI 7bk]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI uvg]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI ci3]: %ORANGE%T1 %WHITE%%NAME%{%NAME%}%MAP%%TIER-1%
-ItemDisplay[!INF UNI ci2]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI ulc]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}%MAP%%TIER-2%
-ItemDisplay[!INF UNI 7sr ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI 7sr]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI urn SOCK=2]: %ORANGE%T1 %WHITE%%NAME%{%NAME%}%MAP%%TIER-1%
-ItemDisplay[!INF UNI urn]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}%MAP%%TIER-2%
-ItemDisplay[!INF UNI 6ws]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI usk ETH]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}%MAP%%TIER-2%
-ItemDisplay[!INF UNI usk]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI 7pa ETH SOCK=3]: %ORANGE%T1 %WHITE%%NAME%{%NAME%}%MAP%%TIER-1%
-ItemDisplay[!INF UNI 7pa]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF UNI upl ALLSK>1]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI upl]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF UNI utu ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF UNI utu]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI cm1]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI cm1]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI dgr]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI dgr]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI lbt]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI lbt]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI rin MFIND>19]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI rin MFIND>19]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI rin PRES>9]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI rin PRES>9]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI rin AR>99]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI rin AR>99]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI rin CHSK236>0]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI rin CHSK236>0]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI rin STAT27>19]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI rin STAT27>19]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI rin LIFE>19]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI rin LIFE>19]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI rin ALLSK>0]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI rin ALLSK>0]: %NAME%{%NAME%}%MAP%%TIER-2%
+ItemDisplay[!INF UNI vgl]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI vgl FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF UNI amu IAS>19 FRW>19]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI amu IAS>19 FRW>19]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI amu ALLSK>0 IAS>19]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI amu ALLSK>0 IAS>19]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI amu ALLSK>0 RES>19]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI amu ALLSK>0 RES>19]: %NAME%{%NAME%}%MAP%%TIER-2%
+ItemDisplay[!INF UNI amu AR>99]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI amu AR>99]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI amu REPLIFE>9]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI amu REPLIFE>9]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI amu CLSK1>1]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI amu CLSK1>1]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI mgl]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI mgl]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI lbw]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI lbw FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF UNI skp]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI skp FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF UNI tbt]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI tbt]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI tgl]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI tgl]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI tbl]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI tbl]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI ba6]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI ba6]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI xap]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xap FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF UNI hgl]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI hgl]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI xea]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xea]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI zlb]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI zlb]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI xml]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xml]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI 8ls ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 8ls ETH]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI 8ls]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 8ls]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI xkp]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xkp]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI zvb]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI zvb]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI xvb]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xvb]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI 8lb]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 8lb FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF UNI 9wn]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 9wn]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI 9fc]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 9fc]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI xlm ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xlm ETH]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI xlm]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xlm]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI 9bw]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 9bw]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI xmb]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xmb]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI 9st ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 9st ETH]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI 9st]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 9st]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI xhn ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xhn ETH]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI xhn]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xhn]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI 9bs ETH]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 9bs ETH]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI 9bs]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 9bs FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF UNI xrs ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xrs ETH]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI xrs]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xrs]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI xsh]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xsh]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI xh9 ETH]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xh9 ETH]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI xh9]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xh9]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI baa]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI baa]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI 9tw]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 9tw]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI pa9]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI pa9]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI nea]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI nea]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI dra]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI dra]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI am7]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI am7]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI xpl ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xpl ETH]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI xpl]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xpl]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI ztb]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI ztb]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI oba]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI oba]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI ama ETH]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI ama ETH]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI ama]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI ama]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI xtb]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xtb]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI xhm]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xhm]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI xlt ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xlt ETH]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI xlt]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xlt]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI xhb]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xhb]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI zhb]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI zhb]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI xrn ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xrn ETH]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI xrn]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xrn]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI jew]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI jew]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI uvc]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI uvc]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI xtp]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI xtp FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF UNI 7cr]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7cr]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI 7ws]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7ws]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI 7sc SOCK=2]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7sc SOCK=2]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI 7sc]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7sc]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI 7dg]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7dg]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI cm3]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI cm3]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI uap]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI uap]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI umc]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI umc]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI 7o7 ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7o7 ETH]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI 7o7]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7o7]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI nef TABSK17>2]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI nef TABSK17>2]: %NAME%{%NAME%}%MAP%%TIER-2%
+ItemDisplay[!INF UNI nef]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI nef]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI 7fl IAS>29]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7fl IAS>29]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI 7fl]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7fl]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI uvb ETH]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI uvb ETH]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI uvb]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI uvb]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI 7gw]: %ORANGE%T1 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7gw]: %NAME%{%NAME%}%MAP%%TIER-1%
+ItemDisplay[!INF UNI uhm]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI uhm]: %NAME%{%NAME%}%MAP%%TIER-2%
+ItemDisplay[!INF UNI 7kr]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7kr]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI 7b8 ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7b8 ETH]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI 7b8]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7b8]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI 7m7 ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7m7 ETH]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI 7m7]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7m7]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI amf TABSK2>2]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI amf TABSK2>2]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI amf]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI amf]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI 7wa ETH]: %ORANGE%T1 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7wa ETH]: %NAME%{%NAME%}%MAP%%TIER-1%
+ItemDisplay[!INF UNI 7wa]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7wa]: %NAME%{%NAME%}%MAP%%TIER-2%
+ItemDisplay[!INF UNI 7ga]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7ga]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI uhg]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI uhg]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI uhb]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI uhb]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI 72a ETH SOCK=5]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 72a ETH SOCK=5]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI 72a]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 72a]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI obf]: %ORANGE%T1 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI obf]: %NAME%{%NAME%}%MAP%%TIER-1%
+ItemDisplay[!INF UNI uit]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI uit]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI 6lw]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 6lw]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI uar]: %ORANGE%T1 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI uar]: %NAME%{%NAME%}%MAP%%TIER-1%
+ItemDisplay[!INF UNI ush SOCK=3]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI ush SOCK=3]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI ush]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI ush]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI cm2]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI cm2]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI uui (SK49>0 OR SK53>0 OR SK52>0 OR SK59>0)]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI uui (SK49>0 OR SK53>0 OR SK52>0 OR SK59>0)]: %NAME%{%NAME%}%MAP%%TIER-2%
+ItemDisplay[!INF UNI uui]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI uui]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI 7s8 ETH]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7s8 ETH]: %NAME%{%NAME%}%MAP%%TIER-2%
+ItemDisplay[!INF UNI 7s8]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7s8]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI 7bk ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7bk ETH]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI 7bk]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7bk]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI uvg]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI uvg]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI ci3]: %ORANGE%T1 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI ci3]: %NAME%{%NAME%}%MAP%%TIER-1%
+ItemDisplay[!INF UNI ci2]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI ci2]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI ulc]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI ulc]: %NAME%{%NAME%}%MAP%%TIER-2%
+ItemDisplay[!INF UNI 7sr ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7sr ETH]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI 7sr]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7sr]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI urn SOCK=2]: %ORANGE%T1 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI urn SOCK=2]: %NAME%{%NAME%}%MAP%%TIER-1%
+ItemDisplay[!INF UNI urn]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI urn]: %NAME%{%NAME%}%MAP%%TIER-2%
+ItemDisplay[!INF UNI 6ws]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 6ws]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI usk ETH]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI usk ETH]: %NAME%{%NAME%}%MAP%%TIER-2%
+ItemDisplay[!INF UNI usk]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI usk]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI 7pa ETH SOCK=3]: %ORANGE%T1 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7pa ETH SOCK=3]: %NAME%{%NAME%}%MAP%%TIER-1%
+ItemDisplay[!INF UNI 7pa]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI 7pa]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF UNI upl ALLSK>1]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI upl ALLSK>1]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI upl]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI upl]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF UNI utu ETH]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI utu ETH]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF UNI utu]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF UNI utu]: %NAME%{%NAME%}%MAP%%TIER-5%
 
 // Sets
-ItemDisplay[!INF SET rin ALLSK>0]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}%MAP%%TIER-2%
-ItemDisplay[!INF SET zhb]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF SET xhm]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF SET xhl]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF SET xtb]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF SET xmg]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF SET ba5]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF SET utc]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF SET 7ws SOCK=4]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF SET 7ws]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF SET zmb]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF SET ne9]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF SET ulg]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF SET oba]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF SET xsk]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF SET paf]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF SET urn]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF SET uth]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF SET uar]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF SET rin ALLSK>0]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET rin ALLSK>0]: %NAME%{%NAME%}%MAP%%TIER-2%
+ItemDisplay[!INF SET zhb]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET zhb]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF SET xhm]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET xhm]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF SET xhl]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET xhl FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF SET xtb]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET xtb]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF SET xmg]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET xmg]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF SET ba5]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET ba5]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF SET utc]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET utc]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF SET 7ws SOCK=4]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET 7ws SOCK=4]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF SET 7ws]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET 7ws]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF SET zmb]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET zmb]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF SET ne9]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET ne9]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF SET ulg]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET ulg]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF SET oba]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET oba]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF SET xsk]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET xsk]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF SET paf]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET paf]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF SET urn]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET urn]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF SET uth]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET uth]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF SET uar]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF SET uar]: %NAME%{%NAME%}%MAP%%TIER-4%
 
 // Catchall
-ItemDisplay[!INF NMAG (CIRC OR DRU OR BAR) (SOCK=2 OR SOCK=0)]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG (CIRC OR DRU OR BAR) (SOCK=3)]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG ELT ETH CHEST]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF NMAG EXC ETH CHEST]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG NORM ETH CHEST]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG ELT ZON (TABSK0>2 OR TABSK2>2)]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG EXC ZON (TABSK0>1 OR TABSK2>1)]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG NORM ZON (TABSK0>0 OR TABSK2>0)]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG ELT DIN RES>29]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG EXC DIN RES>19]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG NORM DIN RES>9]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG (CIRC OR DRU OR BAR) (SOCK=2)]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG (CIRC OR DRU OR BAR) (SOCK=2) FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG (CIRC OR DRU OR BAR) (SOCK=3)]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG (CIRC OR DRU OR BAR) (SOCK=3)]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG ELT ETH CHEST]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG ELT ETH CHEST]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF NMAG FILTLVL<3 EXC ETH CHEST]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG FILTLVL<3 EXC ETH CHEST]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG FILTLVL<2 NORM ETH CHEST]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG FILTLVL<2 NORM ETH CHEST FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG ELT ZON (TABSK0>2 OR TABSK2>2)]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG ELT ZON (TABSK0>2 OR TABSK2>2)]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG FILTLVL<3 EXC ZON (TABSK0>1 OR TABSK2>1)]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG FILTLVL<3 EXC ZON (TABSK0>1 OR TABSK2>1)]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG FILTLVL<2 NORM ZON (TABSK0>0 OR TABSK2>0)]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG FILTLVL<2 NORM ZON (TABSK0>0 OR TABSK2>0) FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG ELT DIN RES>29]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG ELT DIN RES>29]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG FILTLVL<3 EXC DIN RES>19]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG FILTLVL<3 EXC DIN RES>19]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG FILTLVL<2 NORM DIN RES>9]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG FILTLVL<2 NORM DIN RES>9 FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
 
 // Armors
-ItemDisplay[!INF NMAG kit SOCK=3]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG kit SOCK=0]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG ltp SOCK=2]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG ltp SOCK=0]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG stu SOCK=2]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG stu SOCK=0]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG xit SOCK=3]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG xit SOCK=4]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG xit SOCK=0]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG xtp SOCK=3]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG xtp SOCK=2]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG xtp SOCK=0]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG xtu SOCK=3]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG xtu SOCK=2]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG xtu SOCK=0]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG uui SOCK=3]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF NMAG uui SOCK=4]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG uui SOCK=2]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG uui SOCK=0]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG utu SOCK=3]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF NMAG utu SOCK=4]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG utu SOCK=2]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG utu SOCK=0]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG uit SOCK=4]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG uit SOCK=3]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF NMAG uit SOCK=0]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG utp SOCK=3]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF NMAG utp SOCK=4]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG utp SOCK=2]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG utp SOCK=0]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG kit SOCK=3]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG kit SOCK=3 FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG kit SOCK=0]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG kit SOCK=0 FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG ltp SOCK=2]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG ltp SOCK=2 FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG ltp SOCK=0]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG ltp SOCK=0 FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG stu SOCK=2]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG stu SOCK=2 FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG stu SOCK=0]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG stu SOCK=0 FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG xit SOCK=3]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG xit SOCK=3 FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG xit SOCK=4]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG xit SOCK=4]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG xit SOCK=0]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG xit SOCK=0 FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG xtp SOCK=3]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG xtp SOCK=3]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG xtp SOCK=2]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG xtp SOCK=2]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG xtp SOCK=0]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG xtp SOCK=0]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG xtu SOCK=3]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG xtu SOCK=3]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG xtu SOCK=2]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG xtu SOCK=2]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG xtu SOCK=0]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG xtu SOCK=0]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG uui SOCK=3]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG uui SOCK=3]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF NMAG uui SOCK=4]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG uui SOCK=4]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG uui SOCK=2]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG uui SOCK=2]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG uui SOCK=0]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG uui SOCK=0]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG utu SOCK=3]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG utu SOCK=3]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF NMAG utu SOCK=4]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG utu SOCK=4]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG utu SOCK=2]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG utu SOCK=2]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG utu SOCK=0]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG utu SOCK=0]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG uit SOCK=4]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG uit SOCK=4]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG uit SOCK=3]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG uit SOCK=3]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF NMAG uit SOCK=0]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG uit SOCK=0]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG utp SOCK=3]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG utp SOCK=3]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF NMAG utp SOCK=4]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG utp SOCK=4]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG utp SOCK=2]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG utp SOCK=2]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG utp SOCK=0]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG utp SOCK=0]: %NAME%{%NAME%}%MAP%%TIER-4%
 
 // Weapons
-ItemDisplay[!INF NMAG crs SOCK=5]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG crs SOCK=4]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG crs SOCK=0]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG fla SOCK=5]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG fla SOCK=4]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG fla SOCK=0]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG scy SOCK=4]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG scy SOCK=0]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG 9s8 SOCK=4]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG 9s8 SOCK=5]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG 9s8 SOCK=0]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG 7s8 ETH SOCK=5]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF NMAG 7s8 !ETH SOCK=5]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG 7s8 ETH SOCK=4]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}%MAP%%TIER-2%
-ItemDisplay[!INF NMAG 7s8 !ETH SOCK=4]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF NMAG 7s8 SOCK=0]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG 7cr SOCK=6]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG 7cr SOCK=5]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}%MAP%%TIER-2%
-ItemDisplay[!INF NMAG 7cr SOCK=4]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG 7cr SOCK=3]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG 7cr SOCK=0]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG 7pa ETH SOCK=5]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF NMAG 7pa !ETH SOCK=5]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG 7pa ETH SOCK=4]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}%MAP%%TIER-2%
-ItemDisplay[!INF NMAG 7pa !ETH SOCK=4]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF NMAG 7pa SOCK=0]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG 7fb ETH SOCK=6]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF NMAG 7fb ETH SOCK=5]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF NMAG 7fb ETH SOCK=4]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG 7fb SOCK=0]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG 7gd ETH SOCK=6]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF NMAG 7gd ETH SOCK=5]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF NMAG 7gd ETH SOCK=4]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG 7gd SOCK=0]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG 7h7 ETH SOCK=5]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF NMAG 7h7 !ETH SOCK=5]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG 7h7 ETH SOCK=4]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}%MAP%%TIER-2%
-ItemDisplay[!INF NMAG 7h7 !ETH SOCK=4]: %RED%T3 %WHITE%%NAME%{%NAME%}%MAP%%TIER-3%
-ItemDisplay[!INF NMAG 7h7 SOCK=0]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG 7wa SOCK=6]: %GOLD%T4 %WHITE%%NAME%{%NAME%}%MAP%%TIER-4%
-ItemDisplay[!INF NMAG 7wa SOCK=5]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}%MAP%%TIER-2%
-ItemDisplay[!INF NMAG 7wa SOCK=4]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
-ItemDisplay[!INF NMAG 7wa SOCK=3]: %SAGE%T5 %WHITE%%NAME%{%NAME%}%MAP%%TIER-5%
-ItemDisplay[!INF NMAG 7wa SOCK=0]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG crs SOCK=5]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG crs SOCK=5]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG crs SOCK=4]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG crs SOCK=4]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG crs SOCK=0]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG crs SOCK=0 FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG fla SOCK=5]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG fla SOCK=5]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG fla SOCK=4]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG fla SOCK=4]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG fla SOCK=0]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG fla SOCK=0 FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG scy SOCK=4]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG scy SOCK=4 FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG scy SOCK=0]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG scy SOCK=0 FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG 9s8 SOCK=4]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 9s8 SOCK=4]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG 9s8 SOCK=5]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 9s8 SOCK=5]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG 9s8 SOCK=0]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 9s8 SOCK=0]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG 7s8 ETH SOCK=5]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7s8 ETH SOCK=5]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF NMAG 7s8 !ETH SOCK=5]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7s8 !ETH SOCK=5]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG 7s8 ETH SOCK=4]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7s8 ETH SOCK=4]: %NAME%{%NAME%}%MAP%%TIER-2%
+ItemDisplay[!INF NMAG 7s8 !ETH SOCK=4]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7s8 !ETH SOCK=4]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF NMAG 7s8 SOCK=0]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7s8 SOCK=0]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG 7cr SOCK=6]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7cr SOCK=6]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG 7cr SOCK=5]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7cr SOCK=5]: %NAME%{%NAME%}%MAP%%TIER-2%
+ItemDisplay[!INF NMAG 7cr SOCK=4]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7cr SOCK=4 FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG 7cr SOCK=3]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7cr SOCK=3]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG 7cr SOCK=0]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7cr SOCK=0]: %NAME%{%NAME%}%MAP%%TIER-2%
+ItemDisplay[!INF NMAG 7pa ETH SOCK=5]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7pa ETH SOCK=5]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF NMAG 7pa !ETH SOCK=5]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7pa !ETH SOCK=5]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG 7pa ETH SOCK=4]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7pa ETH SOCK=4]: %NAME%{%NAME%}%MAP%%TIER-2%
+ItemDisplay[!INF NMAG 7pa !ETH SOCK=4]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7pa !ETH SOCK=4]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF NMAG 7pa SOCK=0]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7pa SOCK=0]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG 7fb ETH SOCK=6]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7fb ETH SOCK=6]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF NMAG 7fb ETH SOCK=5]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7fb ETH SOCK=5]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF NMAG 7fb ETH SOCK=4]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7fb ETH SOCK=4]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG 7fb ETH SOCK=0]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7fb ETH SOCK=0]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG 7gd ETH SOCK=6]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7gd ETH SOCK=6]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF NMAG 7gd ETH SOCK=5]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7gd ETH SOCK=5]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF NMAG 7gd ETH SOCK=4]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7gd ETH SOCK=4]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG 7gd ETH SOCK=0]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7gd ETH SOCK=0]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG 7h7 ETH SOCK=5]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7h7 ETH SOCK=5]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF NMAG 7h7 !ETH SOCK=5]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7h7 !ETH SOCK=5]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG 7h7 ETH SOCK=4]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7h7 ETH SOCK=4]: %NAME%{%NAME%}%MAP%%TIER-2%
+ItemDisplay[!INF NMAG 7h7 !ETH SOCK=4]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7h7 !ETH SOCK=4]: %NAME%{%NAME%}%MAP%%TIER-3%
+ItemDisplay[!INF NMAG 7h7 SOCK=0]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7h7 SOCK=0]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG 7wa SOCK=6]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7wa SOCK=6]: %NAME%{%NAME%}%MAP%%TIER-4%
+ItemDisplay[!INF NMAG 7wa SOCK=5]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7wa SOCK=5]: %NAME%{%NAME%}%MAP%%TIER-2%
+ItemDisplay[!INF NMAG 7wa SOCK=4]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7wa SOCK=4 FILTLVL<3]: %NAME%{%NAME%}%MAP%%TIER-6%
+ItemDisplay[!INF NMAG 7wa SOCK=3]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7wa SOCK=3]: %NAME%{%NAME%}%MAP%%TIER-5%
+ItemDisplay[!INF NMAG 7wa SOCK=0]: %PURPLE%T2 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG 7wa SOCK=0]: %NAME%{%NAME%}%MAP%%TIER-2%
 
