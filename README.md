@@ -1,18 +1,25 @@
 # Loot Filter Builder
 
-A standalone PHP app that helps you build custom loot filter rules for Project Diablo 2.  This is pretty nerdy stuff that only the most dedicated D2 players will care about or find interesting.
+A standalone PHP app that helps you build complex loot filter rules for Project Diablo 2.  This is pretty nerdy stuff that only the most dedicated D2 players will care about or find interesting.
 
 ## About
 
+What needs solving:
+
+- create runeword recommendations for every socketed item in the game
+- easily add tier labels to items (``T2 Arachnid Mesh``) to highlight great drops
+- keep up with new items for each season as developers change the game over time
+
 What this does:
 
+- consults the game files to make sure everything is up to date
 - builds runeword descriptions for all eligable base items
 - builds tier labels for unique, set, and base items per your preferences
 - auto adds these loot filter codes to your game loot filter
 
 How it does these things:
 
-- consults remote hosted game files
+- downloads the remote hosted game files
 - builds a preferences file that lists every item in the game
 - you edit the preferences file to your tastes by adding tier labels (1-6)
 - builds loot filter rules based on your preferences
@@ -29,13 +36,13 @@ $ git clone git@github.com:whipowill/php-pd2-filter-builder.git
 $ cd php-pd2-filter-builder
 ```
 
-Rename the config file so you can input your loot filter path:
+Rename the config file and input your loot filter path:
 
 ```bash
 $ cp config/config_example.php config/config.php
 ```
 
-Open ``default.filter`` and add this line to fence where you want the code to go:
+Open ``default.filter`` and add these lines to fence where you want the code to go:
 
 ```
 // !!!PD2LFB!!!
@@ -51,7 +58,7 @@ Run the prep command to make sure your preferences file is up to date (or create
 $ php run prep
 ```
 
-This command scans the game files and makes sure your preferences file has everything it needs to have.  It will retain the old values you had in your live preferences file, transfering those to the new.
+This command scans the game files and makes sure your preferences file has everything it needs to have.  It will retain the values you have in your existing preferences file, transfering those over to the new.
 
 Rename the generated preferences file:
 
@@ -69,7 +76,17 @@ Your ``default.filter`` file should be patched with the generated loot filter ru
 
 ## Settings
 
-The tier config entries require some subjective decision making.  My general rules for best base items are:
+When adding tier values to an item you have 3 ways of doing it:
+
+```php
+'item_code' => 3, // option 1 - use a tier value
+'item_code' => [3 => 3], // option 2 - use an array w/ socket count and tier value
+'item_code' => ['(SOCK=3 ETH)' => 3], // option 3 - use an array w/ conditions and tier value
+```
+
+The app will detect how you inputed the tier values and act accordingly.  So for example, an eth item might be marked a Tier 3 but a non-eth of the same item could be a Tier 5.  It's up to you how you want to code it.
+
+The tier config entries require some subjective decision making.  When it comes to base items for runewords, my recommendations for best bases are:
 
 - Armor
 	- Elite:  Wire Fleece (``utu``), Archon Plate (``utp``), Dusk Shroud (``uui``)
@@ -90,7 +107,7 @@ The tier config entries require some subjective decision making.  My general rul
 
 These items are generally "the best" bc of their damage output, speed, and strength requirements.  As usual, elite ethereal chests are always good for mercenaries.
 
-You can change the config I've provided to match your own tastes.
+These are the deep waters of Diablo 2 expertise, much of which I don't have bc I've only played my usual classes.  You can change the config I've provided to match your own tastes.
 
 ## External Links
 
