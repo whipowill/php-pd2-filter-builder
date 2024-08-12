@@ -93,7 +93,7 @@ These are the deep waters of Diablo 2 expertise, much of which I don't have bc I
 ### Helpful Links
 
 - [Arreat Summit](http://classic.battle.net/diablo2exp/items/basics.shtml) - info on all base items
-- [D2 Armor Appearances)[https://i.redd.it/qw4onikwxdx71.jpg] - see how you might look
+- [D2 Armor Appearances](https://i.redd.it/qw4onikwxdx71.jpg) - see how armor looks
 
 ## External Links
 
