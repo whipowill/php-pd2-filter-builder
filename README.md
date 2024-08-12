@@ -90,12 +90,9 @@ The tier config entries you choose require some subjective decision making.
 
 These are the deep waters of Diablo 2 expertise, much of which I don't have bc I've only played my usual classes.  You can change the config I've provided to match your own tastes.
 
-### Helpful Links
-
-- [Arreat Summit](http://classic.battle.net/diablo2exp/items/basics.shtml) - info on all base items
-- [D2 Armor Appearances](https://i.redd.it/qw4onikwxdx71.jpg) - see how armor looks
-
 ## External Links
 
 - [PD2 Filter Rules](https://wiki.projectdiablo2.com/wiki/Item_Filtering#Item_Codes) - loot filter helpsheet
 - [PD2 Source Files](https://github.com/BetweenWalls/PD2-Singleplayer/tree/main/Diablo%20II/ProjectD2/data/global/excel/modpacks/official) - latest game files
+- [Arreat Summit](http://classic.battle.net/diablo2exp/items/basics.shtml) - info on all base items
+- [D2 Armor Appearances](https://i.redd.it/qw4onikwxdx71.jpg) - see how armor looks
