@@ -40,7 +40,7 @@ return [
 		'3' => null,
 		'4' => null,
 		'5' => null,
-		'6' => 'FILTLVL<3',
+		'6' => 'FILTLVL<4',
 	],
 
 	// Define your tiers and their colors.
@@ -64,21 +64,22 @@ return [
 		'Ironward' => 'Astreon\'s Iron Ward',
 		'The Reedeemer' => 'Heaven\'s Light',
 		'Azurewrath' => 'Lightsabre',
+		'Exile\'s Path' => 'Exile',
 	],
 
 	// Define conditions to match catch-all base items.
 	'catchall' => [
-		'(CIRC OR DRU OR BAR) (SOCK=2)' => 6,
-		'(CIRC OR DRU OR BAR) (SOCK=3)' => 5,
+		'(EXC OR ELT) (CIRC OR DRU OR BAR) (SOCK=2)' => 6,
+		'(EXC OR ELT) (CIRC OR DRU OR BAR) (SOCK=3)' => 5,
 		'ELT ETH CHEST' => 3,
-		'EXC ETH CHEST' => 5,
-		'NORM ETH CHEST' => 6,
-		'ELT ZON (TABSK0>2 OR TABSK2>2)' => 4,
-		'EXC ZON (TABSK0>1 OR TABSK2>1)' => 5,
-		'NORM ZON (TABSK0>0 OR TABSK2>0)' => 6,
-		'ELT DIN RES>29' => 4,
-		'EXC DIN RES>19' => 5,
-		'NORM DIN RES>9' => 6,
+		'EXC ETH CHEST' => 6,
+		#'NORM ETH CHEST' => 6,
+		'ELT ZON (TABSK0>2 OR TABSK2>2)' => 5,
+		'EXC ZON (TABSK0>1 OR TABSK2>1)' => 6,
+		#'NORM ZON (TABSK0>0 OR TABSK2>0)' => 6,
+		'ELT DIN RES>29' => 5,
+		'EXC DIN RES>19' => 6,
+		#'NORM DIN RES>9' => 6,
 		#'ELT SIN' => 4,
 		#'EXC SIN' => 5,
 		#'NORM SIN' => 6,
@@ -98,7 +99,7 @@ return [
 		//'ssd' => '', // Rixots Keen - Short Sword (2)
 		//'clb' => '', // Felloak - Club (3)
 		//'cap' => '', // War Bonnet - Cap (3)
-		'dgr' => 5, // Gull - Dagger (4)
+		'dgr' => 6, // Gull - Dagger (4)
 		//'sst' => '', // Bane Ash - Short Staff (5)
 		'lbt' => 5, // Hotspur - Leather Boots (5)
 		//'wnd' => '', // Iros Torch - Wand (5)
@@ -122,7 +123,7 @@ return [
 		//'bar' => '', // Dimoaks Hew - Bardiche (8)
 		//'lax' => '', // Fechmars Axe - Large Axe (8)
 		//'spr' => '', // The Dragon Chang - Spear (8)
-		'vgl' => 6, // Bloodfist - Heavy Gloves (9)
+		//'vgl' => '', // Bloodfist - Heavy Gloves (9)
 		//'mac' => '', // Crushflange - Mace (9)
 		//'axe' => '', // Deathspade - Axe (9)
 		//'lxb' => '', // Leadcrow - Light Crossbow (9)
@@ -157,7 +158,7 @@ return [
 		//'mst' => '', // Bloodrise - Morning Star (15)
 		'mgl' => 5, // Chance Guards - Bracers (15)
 		//'scl' => '', // Hawkmail - Scale Mail (15)
-		'lbw' => 6, // Ravenclaw - Long Bow (15)
+		//'lbw' => '', // Ravenclaw - Long Bow (15)
 		//'spk' => '', // Swordback Hold - Spiked Shield (15)
 		'skp' => 6, // Tarnhelm - Skull Cap (15)
 		//'mbt' => '', // Treads Of Cthon - Chain Boots (15)
@@ -214,11 +215,11 @@ return [
 		//'wax' => '', // Rakescar - War Axe (27)
 		//'pik' => '', // The Tannr Gorerod - Pike (27)
 		//'lwb' => '', // Blastbark - Long War Bow (28)
-		'ba6' => 4, // Cyclopean Roar - Jawbone Visor (28)
+		//'ba6' => '', // Cyclopean Roar - Jawbone Visor (28)
 		//'rxb' => '', // Doomspittle - Repeating Crossbow (28)
 		//'ful' => '', // Goldskin - Full Plate Mail (28)
 		'xap' => 6, // Peasent Crown - War Hat (28)
-		//'8ss' => '', // Razorswitch - Jo Stalf (28)
+		'8ss' => 6, // Razorswitch - Jo Stalf (28)
 		//'fld' => '', // Rockfleece - Field Plate (28)
 		//'8sb' => '', // Skystrike - Edge Bow (28)
 		//'wst' => '', // The Iron Jang Bong - War Staff (28)
@@ -262,7 +263,7 @@ return [
 		//'9sb' => '', // Hexfire - Shamshir (33)
 		//'xtu' => '', // Ironpelt - Tresllised Armor (33)
 		//'9tr' => '', // Kelpie Snare - Fuscina (33)
-		'8lb' => 6, // Kuko Shakaku - CedarBow (33)
+		//'8lb' => '', // Kuko Shakaku - CedarBow (33)
 		'9wn' => 5, // Suicide Branch - Burnt Wand (33)
 		//'9cl' => '', // Dark Clan Crusher - Cudgel (34)
 		'9fc' => 5, // Blade Of Ali Baba - Tulwar (35)
@@ -300,7 +301,7 @@ return [
 			'default' => 5,
 		],
 		//'9qs' => '', // The Fetid Sprinkler - Holy Water Sprinkler (38)
-		//'xit' => '', // Tiamat's Rebuke - Dragon Shield (38)
+		'xit' => 6, // Tiamat's Rebuke - Dragon Shield (38)
 		//'hbl' => '', // Bladebuckle - Girdle (39)
 		//'9ax' => '', // Butcher's Pupil - Cleaver (39)
 		'9bs' => [
@@ -364,7 +365,7 @@ return [
 		//'9pa' => '', // Pierre Tombale Couant - Partizan (43)
 		//'9tk' => '', // Deathbit - Battle Dart (44)
 		//'9h9' => '', // Husoldal Evo - Bec-de-Corbin (44)
-		//'xow' => '', // Kerke's Sanctuary - Pavise (44)
+		'xow' => 6, // Kerke's Sanctuary - Pavise (44)
 		//'9gs' => '', // The Vile Husk - Tusk Sword (44)
 		'xhm' => 4, // Valkiry Wing - Winged Helm (44)
 		//'9fl' => '', // Baezil's Vortex - Knout (45)
@@ -479,7 +480,10 @@ return [
 		//'7ls' => '', // Frostwind - Cryptic Sword (70)
 		//'7ts' => '', // Gargoyle's Bite - Winged Harpoon (70)
 		//'7ta' => '', // Gimmershred - Flying Axe (70)
-		'7ga' => 3, // Messerschmidt's Reaver - Champion Axe (70)
+		'7ga' => [
+			'ETH' => 2,
+			'default' => 3,
+		], // Messerschmidt's Reaver - Champion Axe (70)
 		//'utg' => '', // Occultist - Crusader Guantlets (70)
 		//'upk' => '', // Spike Thorn - Blade Barrier (70)
 		'uhg' => 3, // Steelrend - Ogre Gauntlets (70)
@@ -524,7 +528,7 @@ return [
 			'ETH' => 4,
 			'default' => 5,
 		], // Warshrike - Winged Knife (75)
-		'uvg' => 4, // Dracul's Grasp - Vampirebone Gloves (76)
+		'uvg' => 3, // Dracul's Grasp - Vampirebone Gloves (76)
 		'ci3' => 1, // Griffon's Eye - Diadem (76)
 		//'6hx' => '', // Hellrack - Colossus Crossbow (76)
 		//'uow' => '', // Medusa's Gaze - Aegis (76)
@@ -601,12 +605,12 @@ return [
 		//'lbl' => '', // Death's Guard - Sash (6)
 		//'lgl' => '', // Death's Hand - Leather Gloves (6)
 		//'wsd' => '', // Death's Touch - War Sword (6)
-		//'hgl' => 6, // Sigon's Gage - Gauntlets (6)
-		//'tow' => 6, // Sigon's Guard - Tower Shield (6)
-		//'hbt' => 6, // Sigon's Sabot - Greaves (6)
-		//'gth' => 6, // Sigon's Shelter - Gothic Plate (6)
-		//'ghm' => 6, // Sigon's Visor - Great Helm (6)
-		//'hbl' => 6, // Sigon's Wrap - Plated Belt (6)
+		//'hgl' => '', // Sigon's Gage - Gauntlets (6)
+		//'tow' => '', // Sigon's Guard - Tower Shield (6)
+		//'hbt' => '', // Sigon's Sabot - Greaves (6)
+		//'gth' => '', // Sigon's Shelter - Gothic Plate (6)
+		//'ghm' => '', // Sigon's Visor - Great Helm (6)
+		//'hbl' => '', // Sigon's Wrap - Plated Belt (6)
 		//'brs' => '', // Isenhart's Case - Breast Plate (8)
 		//'fhl' => '', // Isenhart's Horns - Full Helm (8)
 		//'bsd' => '', // Isenhart's Lightbrand - Broad Sword (8)
@@ -653,7 +657,7 @@ return [
 		//'xtg' => '', // M'avina's Icy Clutch - Battle Gauntlets (32)
 		'xhm' => 4, // Guillaume's Face - Winged Helm (34)
 		//'dr8' => '', // Aldur's Stony Gaze - Hunter's Guise (36)
-		//'xvg' => '', // Magnus' Skin - Sharkskin Gloves (37)
+		'xvg' => 6, // Magnus' Skin - Sharkskin Gloves (37)
 		//'9mt' => '', // Aldur's Gauntlet - Jagged Star (42)
 		//'ztb' => '', // Wilhelm's Pride - Battle Belt (42)
 		'xhl' => 6, // Sazabi's Mental Sheath - Basinet (43)
@@ -728,19 +732,13 @@ return [
 		//'vbt' => [], // Heavy Boots - Boot (0)
 		//'vgl' => [], // Heavy Gloves - Glov (0)
 		//'hlm' => [], // Helm - Helm (0)
-		'kit' => [ // Kite Shield - Shie (0)
-			3 => 6,
-			0 => 6,
-		],
+		//'kit' => [] // Kite Shield - Shie (0)
 		//'lrg' => [], // Large Shield - Shie (0)
 		//'lea' => [], // Leather Armor - Tors (0)
 		//'lbt' => [], // Leather Boots - Boot (0)
 		//'vbl' => [], // Light Belt - Belt (0)
 		//'tgl' => [], // Light Gauntlets - Glov (0)
-		'ltp' => [ // Light Plate - Tors (0)
-			2 => 6,
-			0 => 6,
-		],
+		//'ltp' => [] // Light Plate - Tors (0)
 		//'tbt' => [], // Light Plate Boots - Boot (0)
 		//'msk' => [], // Mask - Helm (0)
 		//'hbt' => [], // Plate Boots - Boot (0)
@@ -753,10 +751,7 @@ return [
 		//'sml' => [], // Small Shield - Shie (0)
 		//'spk' => [], // Spiked Shield - Shie (0)
 		//'spl' => [], // Splint Mail - Tors (0)
-		'stu' => [ // Studded Leather - Tors (0)
-			2 => 6,
-			0 => 6,
-		],
+		//'stu' => [] // Studded Leather - Tors (0)
 		//'tow' => [], // Tower Shield - Shie (0)
 		//'ba1' => [], // Jawbone Cap - Phlm (3)
 		//'ne1' => [], // Preserved Head - Head (3)
@@ -795,12 +790,16 @@ return [
 		//'xtg' => [], // Battle Gauntlets - Glov (25)
 		//'xlm' => [], // Casque - Helm (25)
 		//'xul' => [], // Chaos Armor - Tors (25)
-		//'xrs' => [], // Cuirass - Tors (25)
+		'xrs' => [
+			3 => 6,
+			2 => 6,
+			0 => 6,
+		], // Cuirass - Tors (25)
 		//'xsk' => [], // Death Mask - Helm (25)
 		//'xla' => [], // Demonhide Armor - Tors (25)
 		'xit' => [ // Dragon Shield - Shie (25)
 			3 => 6,
-			4 => 5,
+			4 => 6,
 			0 => 6,
 		],
 		//'xth' => [], // Embossed Plate - Tors (25)
@@ -811,9 +810,9 @@ return [
 		//'ba6' => [], // Jawbone Visor - Phlm (25)
 		//'xng' => [], // Linked Mail - Tors (25)
 		'xtp' => [ // Mage Plate - Tors (25)
-			3 => 4,
-			2 => 5,
-			0 => 5,
+			3 => 6,
+			2 => 6,
+			0 => 6,
 		],
 		//'xhn' => [], // Mesh Armor - Tors (25)
 		//'zmb' => [], // Mesh Belt - Belt (25)
@@ -830,11 +829,11 @@ return [
 		//'xld' => [], // Sharktooth Armor - Tors (25)
 		//'xlt' => [], // Templar Coat - Tors (25)
 		//'xcl' => [], // Tigulated Mail - Tors (25)
-		'xtu' => [ // Trellised Armor - Tors (25)
-			3 => 4,
-			2 => 5,
-			0 => 5,
-		],
+		'xtu' => [
+			3 => 6,
+			2 => 6,
+			0 => 6,
+		], // Trellised Armor - Tors (25)
 		//'zhb' => [], // War Belt - Belt (25)
 		//'xhb' => [], // War Boots - Boot (25)
 		//'xhg' => [], // War Gauntlets - Glov (25)
@@ -893,12 +892,12 @@ return [
 		//'uvc' => [], // Vampirefang Belt - Belt (51)
 		//'pac' => [], // Sacred Rondache - Ashd (52)
 		//'ci2' => [], // Tiara - Circ (52)
-		'utu' => [ // Wire Fleece - Tors (53)
+		'utu' => [
 			3 => 3,
 			4 => 4,
 			2 => 5,
 			0 => 4,
-		],
+		], // Wire Fleece - Tors (53)
 		//'umb' => [], // Boneweave Boots - Boot (54)
 		//'bad' => [], // Destroyer Helm - Phlm (54)
 		//'ung' => [], // Diamond Mail - Tors (54)
@@ -910,7 +909,12 @@ return [
 		//'pad' => [], // Ancient Shield - Ashd (55)
 		//'usk' => [], // Demonhead - Helm (55)
 		//'ucl' => [], // Loricated Mail - Tors (55)
-		//'urs' => [], // Great Hauberk - Tors (56)
+		'urs' => [
+			3 => 3,
+			4 => 4,
+			2 => 5,
+			0 => 4,
+		], // Great Hauberk - Tors (56)
 		//'umc' => [], // Mithril Coil - Belt (56)
 		//'upl' => [], // Balrog Skin - Tors (57)
 		//'utg' => [], // Crusader Gauntlets - Glov (57)
@@ -1030,10 +1034,7 @@ return [
 		//'scp' => [], // Scepter - Scep (0)
 		//'scm' => [], // Scimitar - Swor (0)
 		//'skr' => [], // Scissors Katar - H2h (0)
-		'scy' => [ // Scythe - Sc9 (0)
-			4 => 6,
-			0 => 6,
-		],
+		//'scy' => [], // Scythe - Sc9 (0)
 		//'sbb' => [], // Short Battle Bow - Bow (0)
 		//'sbw' => [], // Short Bow - Bow (0)
 		//'ssp' => [], // Short Spear - Jave (0)
@@ -1104,7 +1105,11 @@ return [
 		//'9la' => [], // Military Axe - Axe (22)
 		//'8lb' => [], // Cedar Bow - Bow (23)
 		//'9ma' => [], // Flanged Mace - Mace (23)
-		//'9pa' => [], // Partizan - Pole (23)
+		'9pa' => [
+			4 => 6,
+			5 => 6,
+			0 => 6,
+		], // Partizan - Pole (23)
 		//'8ls' => [], // Quarterstaff - Staf (23)
 		//'9sb' => [], // Shamshir - Swor (23)
 		//'9tr' => [], // Fuscina - Spea (24)
@@ -1119,13 +1124,17 @@ return [
 		//'8hx' => [], // Balista - Xbow (25)
 		//'9wh' => [], // Battle Hammer - Hamm (25)
 		'9s8' => [ // Battle Scythe - Sc9 (25)
-			4 => 5,
-			5 => 5,
-			0 => 5,
+			4 => 6,
+			5 => 6,
+			0 => 6,
 		],
 		//'9bs' => [], // Battle Sword - Swor (25)
 		//'9ba' => [], // Bearded Axe - Axe (25)
-		//'9h9' => [], // Bec-de-Corbin - Pole (25)
+		'9h9' => [
+			4 => 6,
+			5 => 6,
+			0 => 6,
+		], // Bec-de-Corbin - Pole (25)
 		//'9vo' => [], // Bill - Pole (25)
 		//'8cs' => [], // Cedar Staff - Staf (25)
 		//'8rx' => [], // Chu-Ko-Nu - Xbow (25)
@@ -1249,7 +1258,7 @@ return [
 			5 => 2,
 			4 => 6,
 			3 => 5,
-			0 => 2,
+			0 => 5,
 		],
 		//'6cs' => [], // Elder Staff - Staf (55)
 		//'7br' => [], // Mancatcher - Spea (55)
@@ -1310,7 +1319,7 @@ return [
 			5 => 2,
 			4 => 6,
 			3 => 5,
-			0 => 2,
+			0 => 5,
 		],
 		//'7qr' => [], // Scissors Suwayyah - H2h2 (64)
 		//'7gw' => [], // Unearthed Wand - Wand (64)

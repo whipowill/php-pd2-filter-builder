@@ -86,28 +86,14 @@ When adding tier values to an item you have 3 ways of doing it:
 
 The app will detect how you inputed the tier values and act accordingly.  So for example, an eth item might be marked a Tier 3 but a non-eth of the same item could be a Tier 5.  It's up to you how you want to code it.
 
-The tier config entries require some subjective decision making.  When it comes to base items for runewords, my recommendations for best bases are:
-
-- Armor
-	- Elite:  Wire Fleece (``utu``), Archon Plate (``utp``), Dusk Shroud (``uui``)
-	- Exceptional: Trellised Armor (``xtu``), Mage Plate (``xtp``)
-	- Normal: Studded Leather (``stu``), Light Plate (``ltp``)
-- Polearms
-	- Elite: Thresher (``7s8``), Cryptic Axe (``7pa``), Great Poleaxe (``7h7``)
-	- Exceptional: Battle Scythe (``9s8``)
-	- Normal: Scythe (``scy``)
-- 2H Weapons
-	- Elite: Colossus Blade (``7gd``), Colossus Sword (``7fb``)
-	- Exceptional: Executioner Sword (``9gd``), Zweihander (``9fb``)
-	- Normal: Great Sword (``gsd``), Flamberge (``flb``)
-- 1H Weapons
-	- Elite: Phase Blade (``7cr``), Berserker Axe (``7wa``)
-- Caster
-	- Crystal Sword (``crs``), Flail (``fla``)
-
-These items are generally "the best" bc of their damage output, speed, and strength requirements.  As usual, elite ethereal chests are always good for mercenaries.
+The tier config entries you choose require some subjective decision making.
 
 These are the deep waters of Diablo 2 expertise, much of which I don't have bc I've only played my usual classes.  You can change the config I've provided to match your own tastes.
+
+### Helpful Links
+
+- [Arreat Summit](http://classic.battle.net/diablo2exp/items/basics.shtml) - info on all base items
+- [D2 Armor Appearances)[https://i.redd.it/qw4onikwxdx71.jpg] - see how you might look
 
 ## External Links
 

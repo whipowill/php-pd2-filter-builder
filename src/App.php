@@ -2,6 +2,13 @@
 
 class App
 {
+	// colors for map dots
+	protected static $dotmap = [
+		'UNI' => 'D3',
+		'SET' => '7D',
+		'default' => '1F',
+	];
+
 	public static function run($arg)
 	{
 		// config
@@ -209,7 +216,7 @@ class App
 		$lines[] = '// https://github.com/whipowill/php-pd2-filter-builder';
 		$lines[] = '';
 
-		foreach (['uniques', 'sets', 'catchall', 'armors', 'weapons'] as $mode)
+		foreach (['uniques', 'sets', 'armors', 'weapons', 'catchall'] as $mode) // catchall last
 		{
 			$lines[] = '// '.ucwords($mode);
 			foreach (ex($preferences, $mode, []) as $code => $value)
@@ -234,30 +241,53 @@ class App
 						if ($cat == 'NMAG' and !$conditions)
 							$conditions = 'SOCK=0';
 
-						// trim
-						$conditions = trim($conditions);
-
-						// capture filter rule
-						$filter = ex($preferences, 'filters.'.$v);
-
 						// print
-						$lines[] = 'ItemDisplay[!INF '.$cat.' '.$code.($conditions ? ' '.$conditions : '').']: '.ex($preferences, 'colors.'.$v).'T'.$v.' %WHITE%%NAME%{%NAME%}';
-						$lines[] = 'ItemDisplay[!INF '.$cat.' '.$code.($conditions ? ' '.$conditions : '').($filter ? ' '.$filter : '').']: %NAME%{%NAME%}%MAP%%TIER-'.$v.'%';
+						$lines = static::print($preferences, $lines, $cat, $code, $v, $conditions);
 					}
 				}
 				else
 				{
-					// capture filter rule
-					$filter = ex($preferences, 'filters.'.$value);
-
-					// print
-					$lines[] = 'ItemDisplay[!INF '.$cat.' '.$code.']: '.ex($preferences, 'colors.'.$value).'T'.$value.' %WHITE%%NAME%{%NAME%}';
-					$lines[] = 'ItemDisplay[!INF '.$cat.' '.$code.($filter ? ' '.$filter : '').']: %NAME%{%NAME%}%MAP%%TIER-'.$value.'%';
+					$lines = static::print($preferences, $lines, $cat, $code, $value);
 				}
 			}
 			$lines[] = '';
 		}
 		#$lines[] = '';
+
+		// return
+		return $lines;
+	}
+
+	protected static function print($preferences, $lines, $cat, $code, $tier, $conditions = null)
+	{
+		// capture filter rule
+		$filter_alert = ex($preferences, 'filters.'.$tier);
+		$filter_item = null;
+
+		// trim conditions
+		$conditions = trim($conditions);
+
+		// calc what tier label to use
+		$t = ex($preferences, 'colors.'.$tier).'T'.$tier;
+
+		// if this is a base item w/ no sockets
+		if (!in_array($cat, ['UNI', 'SET']) and stripos('SOCK=0', $conditions) !== false)
+		{
+			// change label (use tier 6 color)
+			#$t = ex($preferences, 'colors.6').'BASE';
+
+			// if this is an actual tier 6 base, just hide it
+			if ($tier >= 6) $filter_item = ex($preferences, 'filters.'.$tier);
+
+			// So what happens is crummy base items still show only if
+			// they have the right sockets for something, but they don't
+			// throw an alert in the chat.  If it's a crummy base item
+			// with no sockets it won't show at all.
+		}
+
+		// print
+		$lines[] = 'ItemDisplay[!INF '.$cat.' '.$code.($conditions ? ' '.$conditions : '').($filter_item ? ' '.$filter_item : '').']: '.$t.' %WHITE%%NAME%{%NAME%}';
+		if ($tier < 6) $lines[] = 'ItemDisplay[!INF '.$cat.' '.$code.($conditions ? ' '.$conditions : '').($filter_alert ? ' '.$filter_alert : '').']: %NAME%{%NAME%}%DOT-'.ex(static::$dotmap, $cat, ex(static::$dotmap, 'default')).'%';
 
 		// return
 		return $lines;
