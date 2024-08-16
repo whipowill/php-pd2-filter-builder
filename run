@@ -16,7 +16,8 @@ require('functions.php');
 require(path('src/App.php'));
 
 // capture
-$arg = ex($argv, 1);
+$method = ex($argv, 1);
 
 // run app
-App::run($arg);
+$app = new App();
+$app->run($method);

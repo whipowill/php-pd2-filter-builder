@@ -3,7 +3,7 @@
 //=================================================
 
 // These filter codes are computer generated:
-// https://github.com/whipowill/php-pd2-filter-builder
+// https://github.com/whipowill/php-pd2-lfb
 
 ItemDisplay[NMAG !RW !INF ((BOW OR XBOW) OR (SPEAR) OR (POLEARM) OR (STAFF)) SOCK=5]: %NAME%{%NAME%%CL%%GOLD%Zenith %GRAY%69}%CONTINUE%
 ItemDisplay[NMAG !RW !INF ((DIN)) SOCK=4]: %NAME%{%NAME%%CL%%GOLD%Shattered Wall %GRAY%69}%CONTINUE%
@@ -116,7 +116,7 @@ ItemDisplay[NMAG !RW !INF ((HELM OR CIRC OR BAR OR DRU)) SOCK=2]: %NAME%{%NAME%%
 //=================================================
 
 // These filter codes are computer generated:
-// https://github.com/whipowill/php-pd2-filter-builder
+// https://github.com/whipowill/php-pd2-lfb
 
 // Uniques
 ItemDisplay[!INF UNI cm1]: %RED%T3 %WHITE%%NAME%{%NAME%}
@@ -567,8 +567,11 @@ ItemDisplay[!INF NMAG 7wa SOCK=0]: %NAME%{%NAME%}%DOT-1F%
 ItemDisplay[!INF NMAG (EXC OR ELT) (CIRC OR DRU OR BAR) (SOCK=2)]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
 ItemDisplay[!INF NMAG (EXC OR ELT) (CIRC OR DRU OR BAR) (SOCK=3)]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
 ItemDisplay[!INF NMAG (EXC OR ELT) (CIRC OR DRU OR BAR) (SOCK=3)]: %NAME%{%NAME%}%DOT-1F%
-ItemDisplay[!INF NMAG ELT ETH CHEST]: %RED%T3 %WHITE%%NAME%{%NAME%}
-ItemDisplay[!INF NMAG ELT ETH CHEST]: %NAME%{%NAME%}%DOT-1F%
+ItemDisplay[!INF NMAG (EXC OR ELT) (CIRC OR DRU OR BAR) (SOCK=0)]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG ELT ETH CHEST (ucl OR ult OR uul)]: %RED%T3 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG ELT ETH CHEST (ucl OR ult OR uul)]: %NAME%{%NAME%}%DOT-1F%
+ItemDisplay[!INF NMAG ELT ETH CHEST (ung OR uhn OR upl OR uld OR uth OR uar)]: %GOLD%T4 %WHITE%%NAME%{%NAME%}
+ItemDisplay[!INF NMAG ELT ETH CHEST (ung OR uhn OR upl OR uld OR uth OR uar)]: %NAME%{%NAME%}%DOT-1F%
 ItemDisplay[!INF NMAG EXC ETH CHEST]: %LIGHT_GRAY%T6 %WHITE%%NAME%{%NAME%}
 ItemDisplay[!INF NMAG ELT ZON (TABSK0>2 OR TABSK2>2)]: %SAGE%T5 %WHITE%%NAME%{%NAME%}
 ItemDisplay[!INF NMAG ELT ZON (TABSK0>2 OR TABSK2>2)]: %NAME%{%NAME%}%DOT-1F%

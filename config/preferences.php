@@ -71,7 +71,10 @@ return [
 	'catchall' => [
 		'(EXC OR ELT) (CIRC OR DRU OR BAR) (SOCK=2)' => 6,
 		'(EXC OR ELT) (CIRC OR DRU OR BAR) (SOCK=3)' => 5,
-		'ELT ETH CHEST' => 3,
+		'(EXC OR ELT) (CIRC OR DRU OR BAR) (SOCK=0)' => 6,
+		'ELT ETH CHEST (ucl OR ult OR uul)' => 3, // heavy elite armors
+		'ELT ETH CHEST (ung OR uhn OR upl OR uld OR uth OR uar)' => 4, // medium elite armors
+		'EXC ETH CHEST' => 5, // all other elite armors
 		'EXC ETH CHEST' => 6,
 		#'NORM ETH CHEST' => 6,
 		'ELT ZON (TABSK0>2 OR TABSK2>2)' => 5,

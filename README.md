@@ -32,8 +32,8 @@ This makes it easy to make changes to your preferences as you play.  Just run th
 Download the app:
 
 ```bash
-$ git clone git@github.com:whipowill/php-pd2-filter-builder.git
-$ cd php-pd2-filter-builder
+$ git clone git@github.com:whipowill/php-pd2-lfb.git
+$ cd php-pd2-lfb
 ```
 
 Rename the config file and input your loot filter path:

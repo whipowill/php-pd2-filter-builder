@@ -17,12 +17,14 @@ Compiling item codes to use in my loot filter.
 
 ### Medium
 
-- Diamond Mail (````)
-- Boneweave (````)
-- Balrog Skin (````)
-- Kraken Shell (````)
-- Lacquered Plate (````)
-- Sacred Armor (````)
+- Diamond Mail (``ung``)
+- Boneweave (``uhn``)
+- Balrog Skin (``upl``)
+- Kraken Shell (``uld``)
+- Lacquered Plate (``uth``)
+- Sacred Armor (``uar``)
+
+``(ung OR uhn OR upl OR uld OR uth OR uar)``
 
 ### Heavy
 
