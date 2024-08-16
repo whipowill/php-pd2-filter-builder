@@ -55,7 +55,7 @@ Open ``default.filter`` and add these lines to fence where you want the code to 
 Run the prep command to make sure your preferences file is up to date (or create if missing):
 
 ```bash
-$ php run prep
+$ php run preferences
 ```
 
 This command scans the game files and makes sure your preferences file has everything it needs to have.  It will retain the values you have in your existing preferences file, transfering those over to the new.
